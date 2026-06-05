@@ -13,6 +13,7 @@ import 'package:kinedemo/screens/main_navigation_screen.dart';
 import 'package:kinedemo/screens/exercise_detail_screen.dart';
 import 'package:kinedemo/screens/exercise_tracking_screen.dart';
 import 'package:kinedemo/screens/settings_screen.dart';
+import 'package:kinedemo/models/workout_models.dart';
 import 'package:kinedemo/repositories/auth_repository.dart';
 import 'package:kinedemo/cubits/auth/auth_cubit.dart';
 import 'package:kinedemo/cubits/auth/auth_state.dart';
@@ -20,10 +21,8 @@ import 'package:kinedemo/firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
-  
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+
   runApp(
     MultiProvider(
       providers: [
@@ -36,14 +35,13 @@ void main() async {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => AuthCubit(
-        authRepository: context.read<AuthRepository>(),
-      ),
+      create: (context) =>
+          AuthCubit(authRepository: context.read<AuthRepository>()),
       child: Consumer<LanguageProvider>(
         builder: (context, languageProvider, _) {
           return MaterialApp.router(
@@ -65,31 +63,38 @@ class MyApp extends StatelessWidget {
       redirect: (context, state) {
         final authState = context.read<AuthCubit>().state;
         final isAuthenticated = authState is AuthAuthenticated;
-        final hasCompletedOnboarding = isAuthenticated 
-            ? authState.user.hasCompletedOnboarding 
+        final hasCompletedOnboarding = isAuthenticated
+            ? authState.user.hasCompletedOnboarding
             : false;
-        
-        final isGoingToAuth = state.matchedLocation == '/login' ||
+
+        final isGoingToAuth =
+            state.matchedLocation == '/login' ||
             state.matchedLocation == '/signup' ||
             state.matchedLocation == '/splash';
-        
+
         final isGoingToOnboarding = state.matchedLocation == '/onboarding';
 
         // If not authenticated and not going to auth screens, redirect to login
         if (!isAuthenticated && !isGoingToAuth && !isGoingToOnboarding) {
           return '/login';
         }
-        
+
         // If authenticated but hasn't completed onboarding, redirect to onboarding
-        if (isAuthenticated && !hasCompletedOnboarding && !isGoingToOnboarding && !isGoingToAuth) {
+        if (isAuthenticated &&
+            !hasCompletedOnboarding &&
+            !isGoingToOnboarding &&
+            !isGoingToAuth) {
           return '/onboarding';
         }
-        
+
         // If authenticated and completed onboarding, but going to auth screens (except splash), redirect to dashboard
-        if (isAuthenticated && hasCompletedOnboarding && isGoingToAuth && state.matchedLocation != '/splash') {
+        if (isAuthenticated &&
+            hasCompletedOnboarding &&
+            isGoingToAuth &&
+            state.matchedLocation != '/splash') {
           return '/dashboard';
         }
-        
+
         return null;
       },
       routes: [
@@ -115,11 +120,17 @@ class MyApp extends StatelessWidget {
         ),
         GoRoute(
           path: '/exercise-detail',
-          builder: (context, state) => const ExerciseDetailScreen(),
+          builder: (context, state) {
+            final exercise = state.extra as Exercise?;
+            return ExerciseDetailScreen(exercise: exercise);
+          },
         ),
         GoRoute(
           path: '/exercise-tracking',
-          builder: (context, state) => const ExerciseTrackingScreen(),
+          builder: (context, state) {
+            final exercise = state.extra as Exercise?;
+            return ExerciseTrackingScreen(exercise: exercise);
+          },
         ),
         GoRoute(
           path: '/settings',

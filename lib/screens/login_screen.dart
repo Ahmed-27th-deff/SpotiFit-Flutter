@@ -11,7 +11,7 @@ import 'package:kinedemo/widgets/auth_header.dart';
 import 'package:kinedemo/widgets/custom_text_field.dart';
 
 class LoginScreen extends StatefulWidget {
-  const LoginScreen({Key? key}) : super(key: key);
+  const LoginScreen({super.key});
 
   @override
   State<LoginScreen> createState() => _LoginScreenState();
@@ -38,9 +38,9 @@ class _LoginScreenState extends State<LoginScreen> {
     FocusScope.of(context).unfocus();
     if (_formKey.currentState!.validate()) {
       context.read<AuthCubit>().signIn(
-            email: emailController.text.trim(),
-            password: passwordController.text,
-          );
+        email: emailController.text.trim(),
+        password: passwordController.text,
+      );
     }
   }
 
@@ -115,10 +115,14 @@ class _LoginScreenState extends State<LoginScreen> {
                           },
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return isRTL ? 'الرجاء إدخال بريدك الإلكتروني' : 'Please enter your email';
+                              return isRTL
+                                  ? 'الرجاء إدخال بريدك الإلكتروني'
+                                  : 'Please enter your email';
                             }
                             if (!value.contains('@')) {
-                              return isRTL ? 'الرجاء إدخال بريد إلكتروني صحيح' : 'Please enter a valid email';
+                              return isRTL
+                                  ? 'الرجاء إدخال بريد إلكتروني صحيح'
+                                  : 'Please enter a valid email';
                             }
                             return null;
                           },
@@ -141,10 +145,14 @@ class _LoginScreenState extends State<LoginScreen> {
                           },
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return isRTL ? 'الرجاء إدخال كلمة المرور' : 'Please enter your password';
+                              return isRTL
+                                  ? 'الرجاء إدخال كلمة المرور'
+                                  : 'Please enter your password';
                             }
                             if (value.length < 6) {
-                              return isRTL ? 'كلمة المرور يجب أن تكون 6 أحرف على الأقل' : 'Password must be at least 6 characters';
+                              return isRTL
+                                  ? 'كلمة المرور يجب أن تكون 6 أحرف على الأقل'
+                                  : 'Password must be at least 6 characters';
                             }
                             return null;
                           },
@@ -152,7 +160,9 @@ class _LoginScreenState extends State<LoginScreen> {
                         const SizedBox(height: 16),
                         // Forgot Password
                         Align(
-                          alignment: isRTL ? Alignment.centerLeft : Alignment.centerRight,
+                          alignment: isRTL
+                              ? Alignment.centerLeft
+                              : Alignment.centerRight,
                           child: GestureDetector(
                             onTap: _showForgotPasswordDialog,
                             child: Text(
@@ -178,7 +188,8 @@ class _LoginScreenState extends State<LoginScreen> {
                                 style: ElevatedButton.styleFrom(
                                   backgroundColor: AppTheme.cyanLight,
                                   foregroundColor: AppTheme.darkBg,
-                                  disabledBackgroundColor: AppTheme.cyanLight.withValues(alpha: 0.5),
+                                  disabledBackgroundColor: AppTheme.cyanLight
+                                      .withValues(alpha: 0.5),
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(16),
                                   ),
@@ -189,7 +200,9 @@ class _LoginScreenState extends State<LoginScreen> {
                                         width: 20,
                                         child: CircularProgressIndicator(
                                           strokeWidth: 2,
-                                          valueColor: AlwaysStoppedAnimation(AppTheme.darkBg),
+                                          valueColor: AlwaysStoppedAnimation(
+                                            AppTheme.darkBg,
+                                          ),
                                         ),
                                       )
                                     : Text(
@@ -209,7 +222,9 @@ class _LoginScreenState extends State<LoginScreen> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              isRTL ? "ليس لديك حساب؟ " : "Don't have an account? ",
+                              isRTL
+                                  ? "ليس لديك حساب؟ "
+                                  : "Don't have an account? ",
                               style: const TextStyle(
                                 color: AppTheme.textLight,
                                 fontSize: 14,
@@ -244,9 +259,14 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
   void _showForgotPasswordDialog() {
-    final languageProvider = Provider.of<LanguageProvider>(context, listen: false);
-    final emailResetController = TextEditingController(text: emailController.text);
-    
+    final languageProvider = Provider.of<LanguageProvider>(
+      context,
+      listen: false,
+    );
+    final emailResetController = TextEditingController(
+      text: emailController.text,
+    );
+
     showDialog(
       context: context,
       builder: (context) {
@@ -288,7 +308,11 @@ class _LoginScreenState extends State<LoginScreen> {
                     if (mounted) {
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(
-                          content: Text(languageProvider.isRTL ? 'تم إرسال رابط إعادة تعيين كلمة المرور. يرجى التحقق من بريدك الإلكتروني ومجلد الرسائل غير المرغوب فيها (Spam).' : 'Password reset link sent! Please check your email and spam folder.'),
+                          content: Text(
+                            languageProvider.isRTL
+                                ? 'تم إرسال رابط إعادة تعيين كلمة المرور. يرجى التحقق من بريدك الإلكتروني ومجلد الرسائل غير المرغوب فيها (Spam).'
+                                : 'Password reset link sent! Please check your email and spam folder.',
+                          ),
                           backgroundColor: Colors.green,
                         ),
                       );
@@ -297,7 +321,9 @@ class _LoginScreenState extends State<LoginScreen> {
                     if (mounted) {
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(
-                          content: Text(e.toString().replaceAll('Exception: ', '')),
+                          content: Text(
+                            e.toString().replaceAll('Exception: ', ''),
+                          ),
                           backgroundColor: Colors.red,
                         ),
                       );
@@ -306,7 +332,11 @@ class _LoginScreenState extends State<LoginScreen> {
                 } else {
                   ScaffoldMessenger.of(context).showSnackBar(
                     SnackBar(
-                      content: Text(languageProvider.isRTL ? 'الرجاء إدخال بريد إلكتروني صحيح' : 'Please enter a valid email'),
+                      content: Text(
+                        languageProvider.isRTL
+                            ? 'الرجاء إدخال بريد إلكتروني صحيح'
+                            : 'Please enter a valid email',
+                      ),
                       backgroundColor: Colors.red,
                     ),
                   );

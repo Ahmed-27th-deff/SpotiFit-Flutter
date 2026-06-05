@@ -11,7 +11,7 @@ import 'package:kinedemo/widgets/auth_header.dart';
 import 'package:kinedemo/widgets/custom_text_field.dart';
 
 class SignUpScreen extends StatefulWidget {
-  const SignUpScreen({Key? key}) : super(key: key);
+  const SignUpScreen({super.key});
 
   @override
   State<SignUpScreen> createState() => _SignUpScreenState();
@@ -23,12 +23,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
   final confirmPasswordController = TextEditingController();
-  
+
   final FocusNode _fullNameFocus = FocusNode();
   final FocusNode _emailFocus = FocusNode();
   final FocusNode _passwordFocus = FocusNode();
   final FocusNode _confirmPasswordFocus = FocusNode();
-
 
   bool _obscurePassword = true;
   bool _obscureConfirmPassword = true;
@@ -50,10 +49,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
     FocusScope.of(context).unfocus();
     if (_formKey.currentState!.validate()) {
       context.read<AuthCubit>().signUp(
-            email: emailController.text.trim(),
-            password: passwordController.text,
-            fullName: fullNameController.text.trim(),
-          );
+        email: emailController.text.trim(),
+        password: passwordController.text,
+        fullName: fullNameController.text.trim(),
+      );
     }
   }
 
@@ -125,7 +124,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           },
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return isRTL ? 'هذا الحقل مطلوب' : 'This field is required';
+                              return isRTL
+                                  ? 'هذا الحقل مطلوب'
+                                  : 'This field is required';
                             }
                             return null;
                           },
@@ -144,10 +145,14 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           },
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return isRTL ? 'هذا الحقل مطلوب' : 'This field is required';
+                              return isRTL
+                                  ? 'هذا الحقل مطلوب'
+                                  : 'This field is required';
                             }
                             if (!value.contains('@')) {
-                              return isRTL ? 'الرجاء إدخال بريد إلكتروني صحيح' : 'Please enter a valid email';
+                              return isRTL
+                                  ? 'الرجاء إدخال بريد إلكتروني صحيح'
+                                  : 'Please enter a valid email';
                             }
                             return null;
                           },
@@ -162,7 +167,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           focusNode: _passwordFocus,
                           textInputAction: TextInputAction.next,
                           onFieldSubmitted: (_) {
-                            FocusScope.of(context).requestFocus(_confirmPasswordFocus);
+                            FocusScope.of(
+                              context,
+                            ).requestFocus(_confirmPasswordFocus);
                           },
                           onVisibilityToggle: () {
                             setState(() {
@@ -171,10 +178,14 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           },
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return isRTL ? 'كلمة المرور مطلوبة' : 'Password is required';
+                              return isRTL
+                                  ? 'كلمة المرور مطلوبة'
+                                  : 'Password is required';
                             }
                             if (value.length < 8) {
-                              return isRTL ? 'كلمة المرور يجب أن تكون 8 أحرف على الأقل' : 'Password must be at least 8 characters';
+                              return isRTL
+                                  ? 'كلمة المرور يجب أن تكون 8 أحرف على الأقل'
+                                  : 'Password must be at least 8 characters';
                             }
                             return null;
                           },
@@ -193,15 +204,20 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           },
                           onVisibilityToggle: () {
                             setState(() {
-                              _obscureConfirmPassword = !_obscureConfirmPassword;
+                              _obscureConfirmPassword =
+                                  !_obscureConfirmPassword;
                             });
                           },
                           validator: (value) {
                             if (value == null || value.isEmpty) {
-                              return isRTL ? 'تأكيد كلمة المرور مطلوب' : 'Confirm password is required';
+                              return isRTL
+                                  ? 'تأكيد كلمة المرور مطلوب'
+                                  : 'Confirm password is required';
                             }
                             if (value != passwordController.text) {
-                              return isRTL ? 'كلمات المرور غير متطابقة' : 'Passwords do not match';
+                              return isRTL
+                                  ? 'كلمات المرور غير متطابقة'
+                                  : 'Passwords do not match';
                             }
                             return null;
                           },
@@ -220,8 +236,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 style: ElevatedButton.styleFrom(
                                   backgroundColor: AppTheme.cyanLight,
                                   foregroundColor: AppTheme.darkBg,
-                                  disabledBackgroundColor:
-                                      AppTheme.cyanLight.withValues(alpha: 0.5),
+                                  disabledBackgroundColor: AppTheme.cyanLight
+                                      .withValues(alpha: 0.5),
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(16),
                                   ),
@@ -253,7 +269,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              isRTL ? "لديك حساب بالفعل؟ " : "Already have an account? ",
+                              isRTL
+                                  ? "لديك حساب بالفعل؟ "
+                                  : "Already have an account? ",
                               style: const TextStyle(
                                 color: AppTheme.textLight,
                                 fontSize: 14,
@@ -286,5 +304,4 @@ class _SignUpScreenState extends State<SignUpScreen> {
       ),
     );
   }
-
 }

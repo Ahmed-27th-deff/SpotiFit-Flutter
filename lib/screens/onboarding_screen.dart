@@ -7,7 +7,7 @@ import 'package:kinedemo/cubits/auth/auth_cubit.dart';
 import 'package:kinedemo/theme/app_theme.dart';
 
 class OnboardingScreen extends StatefulWidget {
-  const OnboardingScreen({Key? key}) : super(key: key);
+  const OnboardingScreen({super.key});
 
   @override
   State<OnboardingScreen> createState() => _OnboardingScreenState();
@@ -71,10 +71,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     const SizedBox(height: 16),
                     Text(
                       'Step $_currentStep of 5',
-                      style: const TextStyle(
-                        color: Colors.grey,
-                        fontSize: 14,
-                      ),
+                      style: const TextStyle(color: Colors.grey, fontSize: 14),
                     ),
                   ],
                 ),
@@ -177,19 +174,13 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         const SizedBox(height: 8),
         Text(
           languageProvider.t('physicalStatsDesc'),
-          style: TextStyle(
-            color: Colors.grey.shade400,
-            fontSize: 14,
-          ),
+          style: TextStyle(color: Colors.grey.shade400, fontSize: 14),
         ),
         const SizedBox(height: 40),
         // Height Slider
         Text(
           '${languageProvider.t('height')}: ${_height.toInt()} cm',
-          style: const TextStyle(
-            color: Colors.white,
-            fontSize: 16,
-          ),
+          style: const TextStyle(color: Colors.white, fontSize: 16),
         ),
         const SizedBox(height: 16),
         SliderTheme(
@@ -212,10 +203,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         // Weight Slider
         Text(
           '${languageProvider.t('weight')}: ${_weight.toInt()} kg',
-          style: const TextStyle(
-            color: Colors.white,
-            fontSize: 16,
-          ),
+          style: const TextStyle(color: Colors.white, fontSize: 16),
         ),
         const SizedBox(height: 16),
         SliderTheme(
@@ -253,10 +241,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         const SizedBox(height: 8),
         Text(
           languageProvider.t('selectGenderDesc'),
-          style: TextStyle(
-            color: Colors.grey.shade400,
-            fontSize: 14,
-          ),
+          style: TextStyle(color: Colors.grey.shade400, fontSize: 14),
         ),
         const SizedBox(height: 40),
         _buildOptionButton(
@@ -291,10 +276,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         const SizedBox(height: 8),
         Text(
           languageProvider.t('fitnessGoalDesc'),
-          style: TextStyle(
-            color: Colors.grey.shade400,
-            fontSize: 14,
-          ),
+          style: TextStyle(color: Colors.grey.shade400, fontSize: 14),
         ),
         const SizedBox(height: 40),
         ...goals.map((goal) {
@@ -307,7 +289,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               () => setState(() => _selectedGoal = goal),
             ),
           );
-        }).toList(),
+        }),
       ],
     );
   }
@@ -327,10 +309,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         const SizedBox(height: 8),
         Text(
           languageProvider.t('activityLevelDesc'),
-          style: TextStyle(
-            color: Colors.grey.shade400,
-            fontSize: 14,
-          ),
+          style: TextStyle(color: Colors.grey.shade400, fontSize: 14),
         ),
         const SizedBox(height: 40),
         ...activityLevels.map((level) {
@@ -343,7 +322,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               () => setState(() => _selectedActivityLevel = level),
             ),
           );
-        }).toList(),
+        }),
       ],
     );
   }
@@ -363,10 +342,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         const SizedBox(height: 8),
         Text(
           languageProvider.t('equipmentDesc'),
-          style: TextStyle(
-            color: Colors.grey.shade400,
-            fontSize: 14,
-          ),
+          style: TextStyle(color: Colors.grey.shade400, fontSize: 14),
         ),
         const SizedBox(height: 40),
         ...equipment.map((equip) {
@@ -379,7 +355,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               () => setState(() => _selectedEquipment = equip),
             ),
           );
-        }).toList(),
+        }),
       ],
     );
   }
@@ -396,7 +372,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         width: double.infinity,
         padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(
-          color: isSelected ? AppTheme.cyanLight.withValues(alpha: 0.1) : Colors.grey.shade900,
+          color: isSelected
+              ? AppTheme.cyanLight.withValues(alpha: 0.1)
+              : Colors.grey.shade900,
           border: Border.all(
             color: isSelected ? AppTheme.cyanLight : Colors.grey.shade800,
             width: 2,
@@ -438,13 +416,13 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     } else {
       // Complete onboarding
       context.read<AuthCubit>().completeOnboarding(
-            height: _height,
-            weight: _weight,
-            gender: _selectedGender!,
-            goal: _selectedGoal!,
-            activityLevel: _selectedActivityLevel!,
-            equipment: _selectedEquipment!,
-          );
+        height: _height,
+        weight: _weight,
+        gender: _selectedGender!,
+        goal: _selectedGoal!,
+        activityLevel: _selectedActivityLevel!,
+        equipment: _selectedEquipment!,
+      );
       context.go('/dashboard');
     }
   }

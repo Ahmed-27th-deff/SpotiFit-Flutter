@@ -5,7 +5,7 @@ import 'package:kinedemo/providers/language_provider.dart';
 import 'package:kinedemo/theme/app_theme.dart';
 
 class DashboardScreen extends StatefulWidget {
-  const DashboardScreen({Key? key}) : super(key: key);
+  const DashboardScreen({super.key});
 
   @override
   State<DashboardScreen> createState() => _DashboardScreenState();
@@ -305,7 +305,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
                                     image: AssetImage(
-                                      program['image'] ?? 'assets/images/main.png',
+                                      program['image'] ??
+                                          'assets/images/main.png',
                                     ),
                                     fit: BoxFit.cover,
                                     onError: (_, __) {},

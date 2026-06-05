@@ -73,6 +73,10 @@ dependencies:
     sdk: flutter
   intl_utils: ^2.8.14
   google_nav_bar: 5.0.7
+  
+  # Charts
+  fl_chart: ^0.66.0
+  dio: ^5.9.2
 
 dev_dependencies:
   flutter_test:
@@ -100,6 +104,9 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
+    - assets/data/exercises.json
+    - assets/data/body_progress.json
+    - assets/data/nutrition_data.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

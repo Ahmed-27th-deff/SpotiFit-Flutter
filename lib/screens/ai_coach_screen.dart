@@ -4,7 +4,7 @@ import 'package:kinedemo/providers/language_provider.dart';
 import 'package:kinedemo/theme/app_theme.dart';
 
 class AICoachScreen extends StatefulWidget {
-  const AICoachScreen({Key? key}) : super(key: key);
+  const AICoachScreen({super.key});
 
   @override
   State<AICoachScreen> createState() => _AICoachScreenState();
@@ -21,7 +21,9 @@ class _AICoachScreenState extends State<AICoachScreen> {
     final languageProvider = Provider.of<LanguageProvider>(context);
 
     return Padding(
-      padding: EdgeInsets.only(bottom: MediaQuery.of(context).viewInsets.bottom),
+      padding: EdgeInsets.only(
+        bottom: MediaQuery.of(context).viewInsets.bottom,
+      ),
       child: FractionallySizedBox(
         heightFactor: 0.9,
         child: ClipRRect(
@@ -32,7 +34,10 @@ class _AICoachScreenState extends State<AICoachScreen> {
               children: [
                 Container(
                   color: AppTheme.cardBg,
-                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 16,
+                    vertical: 16,
+                  ),
                   child: SafeArea(
                     bottom: false,
                     child: Row(
@@ -47,7 +52,10 @@ class _AICoachScreenState extends State<AICoachScreen> {
                           ),
                         ),
                         IconButton(
-                          icon: const Icon(Icons.close, color: AppTheme.textWhite),
+                          icon: const Icon(
+                            Icons.close,
+                            color: AppTheme.textWhite,
+                          ),
                           onPressed: () => Navigator.pop(context),
                         ),
                       ],
@@ -102,10 +110,14 @@ class _AICoachScreenState extends State<AICoachScreen> {
                             Expanded(
                               child: TextField(
                                 controller: _controller,
-                                style: const TextStyle(color: AppTheme.textWhite),
+                                style: const TextStyle(
+                                  color: AppTheme.textWhite,
+                                ),
                                 decoration: InputDecoration(
                                   hintText: 'Ask anything...',
-                                  hintStyle: const TextStyle(color: AppTheme.textLight),
+                                  hintStyle: const TextStyle(
+                                    color: AppTheme.textLight,
+                                  ),
                                   filled: true,
                                   fillColor: AppTheme.cardBg,
                                   border: OutlineInputBorder(
@@ -126,7 +138,10 @@ class _AICoachScreenState extends State<AICoachScreen> {
                               onTap: () {
                                 if (_controller.text.isNotEmpty) {
                                   setState(() {
-                                    messages.add({'text': _controller.text, 'isAI': false});
+                                    messages.add({
+                                      'text': _controller.text,
+                                      'isAI': false,
+                                    });
                                     messages.add({
                                       'text': 'I\'m processing your request...',
                                       'isAI': true,
@@ -142,12 +157,16 @@ class _AICoachScreenState extends State<AICoachScreen> {
                                   color: AppTheme.cyanLight,
                                   borderRadius: BorderRadius.circular(12),
                                 ),
-                                child: const Icon(Icons.send, color: AppTheme.darkBg),
+                                child: const Icon(
+                                  Icons.send,
+                                  color: AppTheme.darkBg,
+                                ),
                               ),
                             ),
                           ],
                         ),
                       ),
+                      const SizedBox(height: 32),
                     ],
                   ),
                 ),

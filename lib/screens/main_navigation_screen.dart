@@ -9,7 +9,7 @@ import 'package:kinedemo/screens/settings_screen.dart';
 import 'package:kinedemo/screens/ai_coach_screen.dart';
 
 class MainNavigationScreen extends StatefulWidget {
-  const MainNavigationScreen({Key? key}) : super(key: key);
+  const MainNavigationScreen({super.key});
 
   @override
   State<MainNavigationScreen> createState() => _MainNavigationScreenState();
@@ -59,26 +59,11 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
               tabBackgroundColor: AppTheme.cyanLight,
               color: AppTheme.textLight,
               tabs: const [
-                GButton(
-                  icon: Icons.home,
-                  text: 'Home',
-                ),
-                GButton(
-                  icon: Icons.fitness_center,
-                  text: 'Exercises',
-                ),
-                GButton(
-                  icon: Icons.apple,
-                  text: 'Nutrition',
-                ),
-                GButton(
-                  icon: Icons.trending_up,
-                  text: 'Progress',
-                ),
-                GButton(
-                  icon: Icons.settings,
-                  text: 'Settings',
-                ),
+                GButton(icon: Icons.home, text: 'Home'),
+                GButton(icon: Icons.fitness_center, text: 'Exercises'),
+                GButton(icon: Icons.apple, text: 'Nutrition'),
+                GButton(icon: Icons.trending_up, text: 'Progress'),
+                GButton(icon: Icons.settings, text: 'Settings'),
               ],
               selectedIndex: _currentIndex,
               onTabChange: (index) {
