@@ -1,0 +1,260 @@
+{
+  "progressLogs": [
+    {
+      "date": "2026-01-05",
+      "totalScore": 70,
+      "rpe": 9,
+      "inBody": {
+        "weight": 85.0,
+        "bodyFat": 23.5,
+        "skeletalMuscle": 34.0,
+        "bodyWater": 45.0,
+        "fatMass": 20.0
+      },
+      "analysis": {
+        "bmi": 26.2,
+        "metabolicRate": 1954
+      }
+    },
+    {
+      "date": "2026-01-12",
+      "totalScore": 71,
+      "rpe": 9,
+      "inBody": {
+        "weight": 84.5,
+        "bodyFat": 23.1,
+        "skeletalMuscle": 34.2,
+        "bodyWater": 45.1,
+        "fatMass": 19.5
+      },
+      "analysis": {
+        "bmi": 26.1,
+        "metabolicRate": 1955
+      }
+    },
+    {
+      "date": "2026-01-19",
+      "totalScore": 73,
+      "rpe": 9,
+      "inBody": {
+        "weight": 84.1,
+        "bodyFat": 22.7,
+        "skeletalMuscle": 34.4,
+        "bodyWater": 45.2,
+        "fatMass": 19.1
+      },
+      "analysis": {
+        "bmi": 25.9,
+        "metabolicRate": 1956
+      }
+    },
+    {
+      "date": "2026-01-26",
+      "totalScore": 74,
+      "rpe": 9,
+      "inBody": {
+        "weight": 83.6,
+        "bodyFat": 22.3,
+        "skeletalMuscle": 34.7,
+        "bodyWater": 45.3,
+        "fatMass": 18.6
+      },
+      "analysis": {
+        "bmi": 25.8,
+        "metabolicRate": 1957
+      }
+    },
+    {
+      "date": "2026-02-02",
+      "totalScore": 76,
+      "rpe": 8,
+      "inBody": {
+        "weight": 83.1,
+        "bodyFat": 21.9,
+        "skeletalMuscle": 34.9,
+        "bodyWater": 45.4,
+        "fatMass": 18.2
+      },
+      "analysis": {
+        "bmi": 25.7,
+        "metabolicRate": 1959
+      }
+    },
+    {
+      "date": "2026-02-09",
+      "totalScore": 78,
+      "rpe": 8,
+      "inBody": {
+        "weight": 82.7,
+        "bodyFat": 21.5,
+        "skeletalMuscle": 35.1,
+        "bodyWater": 45.5,
+        "fatMass": 17.8
+      },
+      "analysis": {
+        "bmi": 25.5,
+        "metabolicRate": 1960
+      }
+    },
+    {
+      "date": "2026-02-16",
+      "totalScore": 79,
+      "rpe": 8,
+      "inBody": {
+        "weight": 82.2,
+        "bodyFat": 21.1,
+        "skeletalMuscle": 35.3,
+        "bodyWater": 45.6,
+        "fatMass": 17.3
+      },
+      "analysis": {
+        "bmi": 25.4,
+        "metabolicRate": 1961
+      }
+    },
+    {
+      "date": "2026-02-23",
+      "totalScore": 81,
+      "rpe": 8,
+      "inBody": {
+        "weight": 81.7,
+        "bodyFat": 20.7,
+        "skeletalMuscle": 35.5,
+        "bodyWater": 45.7,
+        "fatMass": 16.9
+      },
+      "analysis": {
+        "bmi": 25.2,
+        "metabolicRate": 1963
+      }
+    },
+    {
+      "date": "2026-03-02",
+      "totalScore": 82,
+      "rpe": 7,
+      "inBody": {
+        "weight": 81.2,
+        "bodyFat": 20.3,
+        "skeletalMuscle": 35.8,
+        "bodyWater": 45.8,
+        "fatMass": 16.5
+      },
+      "analysis": {
+        "bmi": 25.1,
+        "metabolicRate": 1964
+      }
+    },
+    {
+      "date": "2026-03-09",
+      "totalScore": 84,
+      "rpe": 7,
+      "inBody": {
+        "weight": 80.8,
+        "bodyFat": 19.9,
+        "skeletalMuscle": 36.0,
+        "bodyWater": 45.9,
+        "fatMass": 16.1
+      },
+      "analysis": {
+        "bmi": 24.9,
+        "metabolicRate": 1965
+      }
+    },
+    {
+      "date": "2026-03-16",
+      "totalScore": 86,
+      "rpe": 7,
+      "inBody": {
+        "weight": 80.3,
+        "bodyFat": 19.5,
+        "skeletalMuscle": 36.2,
+        "bodyWater": 46.0,
+        "fatMass": 15.7
+      },
+      "analysis": {
+        "bmi": 24.8,
+        "metabolicRate": 1967
+      }
+    },
+    {
+      "date": "2026-03-23",
+      "totalScore": 87,
+      "rpe": 7,
+      "inBody": {
+        "weight": 79.8,
+        "bodyFat": 19.1,
+        "skeletalMuscle": 36.4,
+        "bodyWater": 46.1,
+        "fatMass": 15.2
+      },
+      "analysis": {
+        "bmi": 24.6,
+        "metabolicRate": 1968
+      }
+    },
+    {
+      "date": "2026-03-30",
+      "totalScore": 89,
+      "rpe": 6,
+      "inBody": {
+        "weight": 79.4,
+        "bodyFat": 18.7,
+        "skeletalMuscle": 36.6,
+        "bodyWater": 46.2,
+        "fatMass": 14.8
+      },
+      "analysis": {
+        "bmi": 24.5,
+        "metabolicRate": 1969
+      }
+    },
+    {
+      "date": "2026-04-06",
+      "totalScore": 90,
+      "rpe": 6,
+      "inBody": {
+        "weight": 78.9,
+        "bodyFat": 18.3,
+        "skeletalMuscle": 36.9,
+        "bodyWater": 46.3,
+        "fatMass": 14.4
+      },
+      "analysis": {
+        "bmi": 24.3,
+        "metabolicRate": 1971
+      }
+    },
+    {
+      "date": "2026-04-13",
+      "totalScore": 92,
+      "rpe": 6,
+      "inBody": {
+        "weight": 78.4,
+        "bodyFat": 17.9,
+        "skeletalMuscle": 37.1,
+        "bodyWater": 46.4,
+        "fatMass": 14.0
+      },
+      "analysis": {
+        "bmi": 24.2,
+        "metabolicRate": 1972
+      }
+    },
+    {
+      "date": "2026-04-20",
+      "totalScore": 94,
+      "rpe": 6,
+      "inBody": {
+        "weight": 78.0,
+        "bodyFat": 17.5,
+        "skeletalMuscle": 37.3,
+        "bodyWater": 46.5,
+        "fatMass": 13.6
+      },
+      "analysis": {
+        "bmi": 24.1,
+        "metabolicRate": 1973
+      }
+    }
+  ]
+}

@@ -1,0 +1,8578 @@
+[
+  {
+    "weekIndex": 1,
+    "dietPlan": {
+      "dailyCaloriesTarget": 2400,
+      "proteinTarget": 180,
+      "carbsTarget": 250,
+      "fatTarget": 75
+    },
+    "weeklyMeals": [
+      {
+        "dayOfWeek": 1,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 1,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 1,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 2,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 2,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 2,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 3,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 3,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 3,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 4,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 4,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 4,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 5,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 5,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 5,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 6,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 6,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 6,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 7,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 7,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 7,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "weekIndex": 2,
+    "dietPlan": {
+      "dailyCaloriesTarget": 2400,
+      "proteinTarget": 180,
+      "carbsTarget": 250,
+      "fatTarget": 75
+    },
+    "weeklyMeals": [
+      {
+        "dayOfWeek": 8,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 8,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 8,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 9,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 9,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 9,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 10,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 10,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 10,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 11,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 11,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 11,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 12,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 12,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 12,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 13,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 13,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 13,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 14,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 14,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 14,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "weekIndex": 3,
+    "dietPlan": {
+      "dailyCaloriesTarget": 2400,
+      "proteinTarget": 180,
+      "carbsTarget": 250,
+      "fatTarget": 75
+    },
+    "weeklyMeals": [
+      {
+        "dayOfWeek": 15,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 15,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 15,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 16,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 16,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 16,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 17,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 17,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 17,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 18,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 18,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 18,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 19,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 19,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 19,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 20,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 20,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 20,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 21,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 21,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 21,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "weekIndex": 4,
+    "dietPlan": {
+      "dailyCaloriesTarget": 2400,
+      "proteinTarget": 180,
+      "carbsTarget": 250,
+      "fatTarget": 75
+    },
+    "weeklyMeals": [
+      {
+        "dayOfWeek": 22,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 22,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 22,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 23,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 23,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 23,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 24,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 24,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 24,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 25,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 25,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 25,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 26,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 26,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 26,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 27,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 27,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 27,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 28,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 28,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 28,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "weekIndex": 5,
+    "dietPlan": {
+      "dailyCaloriesTarget": 2200,
+      "proteinTarget": 185,
+      "carbsTarget": 210,
+      "fatTarget": 68
+    },
+    "weeklyMeals": [
+      {
+        "dayOfWeek": 1,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 1,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 1,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 2,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 2,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 2,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 3,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 3,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 3,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 4,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 4,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 4,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 5,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 5,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 5,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 6,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 6,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 6,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 7,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 7,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 7,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "weekIndex": 6,
+    "dietPlan": {
+      "dailyCaloriesTarget": 2200,
+      "proteinTarget": 185,
+      "carbsTarget": 210,
+      "fatTarget": 68
+    },
+    "weeklyMeals": [
+      {
+        "dayOfWeek": 8,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 8,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 8,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 9,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 9,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 9,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 10,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 10,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 10,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 11,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 11,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 11,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 12,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 12,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 12,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 13,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 13,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 13,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 14,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 14,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 14,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "weekIndex": 7,
+    "dietPlan": {
+      "dailyCaloriesTarget": 2200,
+      "proteinTarget": 185,
+      "carbsTarget": 210,
+      "fatTarget": 68
+    },
+    "weeklyMeals": [
+      {
+        "dayOfWeek": 15,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 15,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 15,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 16,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 16,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 16,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 17,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 17,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 17,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 18,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 18,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 18,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 19,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 19,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 19,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 20,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 20,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 20,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 21,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 21,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 21,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "weekIndex": 8,
+    "dietPlan": {
+      "dailyCaloriesTarget": 2200,
+      "proteinTarget": 185,
+      "carbsTarget": 210,
+      "fatTarget": 68
+    },
+    "weeklyMeals": [
+      {
+        "dayOfWeek": 22,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 22,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 22,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 23,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 23,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 23,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 24,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 24,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 24,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 25,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 25,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 25,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 26,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 26,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 26,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 27,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 27,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 27,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 28,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 28,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 28,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "weekIndex": 9,
+    "dietPlan": {
+      "dailyCaloriesTarget": 2000,
+      "proteinTarget": 190,
+      "carbsTarget": 170,
+      "fatTarget": 62
+    },
+    "weeklyMeals": [
+      {
+        "dayOfWeek": 1,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 1,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 1,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 2,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 2,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 2,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 3,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 3,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 3,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 4,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 4,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 4,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 5,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 5,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 5,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 6,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 6,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 6,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 7,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 7,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 7,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "weekIndex": 10,
+    "dietPlan": {
+      "dailyCaloriesTarget": 2000,
+      "proteinTarget": 190,
+      "carbsTarget": 170,
+      "fatTarget": 62
+    },
+    "weeklyMeals": [
+      {
+        "dayOfWeek": 8,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 8,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 8,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 9,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 9,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 9,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 10,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 10,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 10,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 11,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 11,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 11,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 12,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 12,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 12,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 13,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 13,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 13,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 14,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 14,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 14,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "weekIndex": 11,
+    "dietPlan": {
+      "dailyCaloriesTarget": 2000,
+      "proteinTarget": 190,
+      "carbsTarget": 170,
+      "fatTarget": 62
+    },
+    "weeklyMeals": [
+      {
+        "dayOfWeek": 15,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 15,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 15,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 16,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 16,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 16,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 17,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 17,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 17,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 18,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 18,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 18,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 19,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 19,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 19,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 20,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 20,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 20,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 21,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 21,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 21,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "weekIndex": 12,
+    "dietPlan": {
+      "dailyCaloriesTarget": 2000,
+      "proteinTarget": 190,
+      "carbsTarget": 170,
+      "fatTarget": 62
+    },
+    "weeklyMeals": [
+      {
+        "dayOfWeek": 22,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 22,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 22,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 23,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 23,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 23,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 24,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 24,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 24,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 25,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 25,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 25,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 26,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 26,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 26,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 27,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 27,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 27,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 28,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 28,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 28,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "weekIndex": 13,
+    "dietPlan": {
+      "dailyCaloriesTarget": 2100,
+      "proteinTarget": 195,
+      "carbsTarget": 190,
+      "fatTarget": 60
+    },
+    "weeklyMeals": [
+      {
+        "dayOfWeek": 1,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 1,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 1,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 2,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 2,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 2,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 3,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 3,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 3,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 4,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 4,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 4,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 5,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 5,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 5,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 6,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 6,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 6,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 7,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 7,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 7,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "weekIndex": 14,
+    "dietPlan": {
+      "dailyCaloriesTarget": 2100,
+      "proteinTarget": 195,
+      "carbsTarget": 190,
+      "fatTarget": 60
+    },
+    "weeklyMeals": [
+      {
+        "dayOfWeek": 8,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 8,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 8,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 9,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 9,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 9,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 10,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 10,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 10,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 11,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 11,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 11,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 12,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 12,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 12,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 13,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 13,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 13,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 14,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 14,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 14,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "weekIndex": 15,
+    "dietPlan": {
+      "dailyCaloriesTarget": 2100,
+      "proteinTarget": 195,
+      "carbsTarget": 190,
+      "fatTarget": 60
+    },
+    "weeklyMeals": [
+      {
+        "dayOfWeek": 15,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 15,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 15,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 16,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 16,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 16,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 17,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 17,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 17,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 18,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 18,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 18,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 19,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 19,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 19,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 20,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 20,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 20,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 21,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 21,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 21,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "weekIndex": 16,
+    "dietPlan": {
+      "dailyCaloriesTarget": 2100,
+      "proteinTarget": 195,
+      "carbsTarget": 190,
+      "fatTarget": 60
+    },
+    "weeklyMeals": [
+      {
+        "dayOfWeek": 22,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 22,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 22,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 23,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 23,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 23,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 24,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 24,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 24,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 25,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 25,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 25,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 26,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 26,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 26,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 27,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 27,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 27,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 28,
+        "mealTime": "08:00",
+        "mealOrder": 1,
+        "items": [
+          {
+            "name": "Oatmeal",
+            "grams": 60,
+            "calories": 220,
+            "protein": 8,
+            "carbs": 40,
+            "fats": 4,
+            "isEaten": true
+          },
+          {
+            "name": "Whey Protein",
+            "grams": 30,
+            "calories": 120,
+            "protein": 24,
+            "carbs": 2,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 28,
+        "mealTime": "13:00",
+        "mealOrder": 2,
+        "items": [
+          {
+            "name": "Chicken Breast",
+            "grams": 200,
+            "calories": 330,
+            "protein": 62,
+            "carbs": 0,
+            "fats": 7,
+            "isEaten": true
+          },
+          {
+            "name": "Rice",
+            "grams": 150,
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fats": 1,
+            "isEaten": true
+          }
+        ]
+      },
+      {
+        "dayOfWeek": 28,
+        "mealTime": "19:30",
+        "mealOrder": 3,
+        "items": [
+          {
+            "name": "Salmon",
+            "grams": 150,
+            "calories": 310,
+            "protein": 30,
+            "carbs": 0,
+            "fats": 20,
+            "isEaten": true
+          },
+          {
+            "name": "Asparagus",
+            "grams": 100,
+            "calories": 20,
+            "protein": 2,
+            "carbs": 4,
+            "fats": 0,
+            "isEaten": true
+          }
+        ]
+      }
+    ]
+  }
+]
