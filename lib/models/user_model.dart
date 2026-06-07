@@ -2,103 +2,108 @@ import 'package:equatable/equatable.dart';
 
 class UserModel extends Equatable {
   final String uid;
+  final String firstName;
+  final String lastName;
   final String email;
-  final String fullName;
+  final String? password;
   final String? gender;
+  final DateTime? dateOfBirth;
   final double? height;
   final double? weight;
-  final String? goal;
-  final String? activityLevel;
-  final String? equipment;
-  final DateTime createdAt;
-  final bool hasCompletedOnboarding;
+  final String? fitnessLevel;
+  final List<String>? fitnessGoals;
 
   const UserModel({
     required this.uid,
+    required this.firstName,
+    required this.lastName,
     required this.email,
-    required this.fullName,
+    this.password,
     this.gender,
+    this.dateOfBirth,
     this.height,
     this.weight,
-    this.goal,
-    this.activityLevel,
-    this.equipment,
-    required this.createdAt,
-    this.hasCompletedOnboarding = false,
+    this.fitnessLevel,
+    this.fitnessGoals,
   });
 
   factory UserModel.fromJson(Map<String, dynamic> json) {
     return UserModel(
       uid: json['uid'] as String,
+      firstName: json['first_name'] as String,
+      lastName: json['last_name'] as String,
       email: json['email'] as String,
-      fullName: json['fullName'] as String,
+      password: json['password'] as String?,
       gender: json['gender'] as String?,
+      dateOfBirth: json['date_of_birth'] != null
+          ? DateTime.parse(json['date_of_birth'] as String)
+          : null,
       height: (json['height'] as num?)?.toDouble(),
       weight: (json['weight'] as num?)?.toDouble(),
-      goal: json['goal'] as String?,
-      activityLevel: json['activityLevel'] as String?,
-      equipment: json['equipment'] as String?,
-      createdAt: DateTime.parse(json['createdAt'] as String),
-      hasCompletedOnboarding: json['hasCompletedOnboarding'] as bool? ?? false,
+      fitnessLevel: json['fitness_level'] as String?,
+      fitnessGoals: (json['fitness_goals'] as List<dynamic>?)
+          ?.map((e) => e as String)
+          .toList(),
     );
   }
 
   Map<String, dynamic> toJson() {
     return {
       'uid': uid,
+      'first_name': firstName,
+      'last_name': lastName,
       'email': email,
-      'fullName': fullName,
+      if (password != null) 'password': password,
       if (gender != null) 'gender': gender,
+      if (dateOfBirth != null)
+        'date_of_birth': dateOfBirth!.toIso8601String().split('T')[0],
       if (height != null) 'height': height,
       if (weight != null) 'weight': weight,
-      if (goal != null) 'goal': goal,
-      if (activityLevel != null) 'activityLevel': activityLevel,
-      if (equipment != null) 'equipment': equipment,
-      'createdAt': createdAt.toIso8601String(),
-      'hasCompletedOnboarding': hasCompletedOnboarding,
+      if (fitnessLevel != null) 'fitness_level': fitnessLevel,
+      if (fitnessGoals != null) 'fitness_goals': fitnessGoals,
     };
   }
 
   UserModel copyWith({
     String? uid,
+    String? firstName,
+    String? lastName,
     String? email,
-    String? fullName,
+    String? password,
     String? gender,
+    DateTime? dateOfBirth,
     double? height,
     double? weight,
-    String? goal,
-    String? activityLevel,
-    String? equipment,
-    DateTime? createdAt,
-    bool? hasCompletedOnboarding,
+    String? fitnessLevel,
+    List<String>? fitnessGoals,
   }) {
     return UserModel(
       uid: uid ?? this.uid,
+      firstName: firstName ?? this.firstName,
+      lastName: lastName ?? this.lastName,
       email: email ?? this.email,
-      fullName: fullName ?? this.fullName,
+      password: password ?? this.password,
       gender: gender ?? this.gender,
+      dateOfBirth: dateOfBirth ?? this.dateOfBirth,
       height: height ?? this.height,
       weight: weight ?? this.weight,
-      goal: goal ?? this.goal,
-      activityLevel: activityLevel ?? this.activityLevel,
-      equipment: equipment ?? this.equipment,
-      createdAt: createdAt ?? this.createdAt,
-      hasCompletedOnboarding: hasCompletedOnboarding ?? this.hasCompletedOnboarding,
+      fitnessLevel: fitnessLevel ?? this.fitnessLevel,
+      fitnessGoals: fitnessGoals ?? this.fitnessGoals,
     );
   }
 
   @override
   List<Object?> get props => [
         uid,
+        firstName,
+        lastName,
         email,
-        fullName,
+        password,
         gender,
+        dateOfBirth,
         height,
         weight,
-        goal,
-        activityLevel,
-        equipment,
-        createdAt,
-        hasCompletedOnboarding,
+        fitnessLevel,
+        fitnessGoals,
       ];
 }

@@ -15,6 +15,8 @@ class LanguageProvider extends ChangeNotifier {
       'forgotPassword': 'Forgot your password?',
       'createAccount': 'Create New Account',
       'fullName': 'Full Name',
+      'firstName': 'First Name',
+      'lastName': 'Last Name',
       'male': 'Male',
       'female': 'Female',
       'gender': 'Gender',
@@ -92,6 +94,8 @@ class LanguageProvider extends ChangeNotifier {
       'fitnessGoalDesc': 'Choose the goal that matters most to you',
       'activityLevelDesc': 'How would you describe your current fitness level?',
       'equipmentDesc': 'Where will you be working out?',
+      'dateOfBirth': 'Date of Birth',
+      'selectDate': 'Select your date of birth',
     },
     'ar': {
       'appName': 'مدرب اللياقة الذكي',
@@ -104,6 +108,8 @@ class LanguageProvider extends ChangeNotifier {
       'forgotPassword': 'هل نسيت كلمة المرور؟',
       'createAccount': 'إنشاء حساب جديد',
       'fullName': 'الاسم الكامل',
+      'firstName': 'الاسم الأول',
+      'lastName': 'اسم العائلة',
       'male': 'ذكر',
       'female': 'أنثى',
       'gender': 'الجنس',
@@ -181,6 +187,8 @@ class LanguageProvider extends ChangeNotifier {
       'fitnessGoalDesc': 'اختر الهدف الأكثر أهمية بالنسبة لك',
       'activityLevelDesc': 'كيف تصف مستوى لياقتك الحالي؟',
       'equipmentDesc': 'أين ستمارس التمارين؟',
+      'dateOfBirth': 'تاريخ الميلاد',
+      'selectDate': 'اختر تاريخ ميلادك',
     },
   };
 

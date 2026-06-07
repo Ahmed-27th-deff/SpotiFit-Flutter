@@ -53,7 +53,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
                 const SizedBox(height: 12),
                 const Text(
-                  'Ahmad Ahmed',
+                  'Ahmed Salem',
                   style: TextStyle(
                     color: AppTheme.textWhite,
                     fontSize: 18,
@@ -62,7 +62,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
                 const SizedBox(height: 4),
                 const Text(
-                  'ahmad@example.com',
+                  'salemdeff@gmail.com',
                   style: TextStyle(color: AppTheme.textLight, fontSize: 14),
                 ),
               ],

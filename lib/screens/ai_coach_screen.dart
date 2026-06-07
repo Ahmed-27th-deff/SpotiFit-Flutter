@@ -143,7 +143,19 @@ class _AICoachScreenState extends State<AICoachScreen> {
                                       'isAI': false,
                                     });
                                     messages.add({
-                                      'text': 'I\'m processing your request...',
+                                      'text': '''The Macro Strategy
+                                      To maintain muscle and keep energy stable across a long shift, target a daily baseline of roughly 2,800 calories: 180–200g of Protein for muscle repair, 320–350g of Carbohydrates for sustained fuel, and 75–85g of Healthy Fats for joint health and hormone regulation.
+
+                                      Daily Meal Schedule
+                                      Meal 1 (Pre-Shift Breakfast): 4 whole eggs, 100g oats cooked in water, and 1 banana. This combines slow-digesting complex carbs with quality protein to anchor your energy through your first few morning clients.
+
+                                    Meal 2 (Mid-Morning Quick Refuel): 200g plain Greek yogurt, 30g almonds, and an apple. A portable, zero-prep option that fits perfectly into a 5-minute break between sessions.
+
+                                    Meal 3 (Midday Power Lunch): 200g grilled chicken breast or lean beef, 250g cooked basmati rice or sweet potato, and a large portion of steamed green vegetables drizzled with 1 tbsp of olive oil. This restocks your glycogen stores without causing an afternoon crash.
+
+                                    Meal 4 (Late Afternoon / Pre-Workout): 1 scoop of whey protein isolate mixed with an easily digestible carb powder (or 2-3 rice cakes). Liquid nutrition bypasses heavy digestion, giving your muscles immediate energy without making you sluggish on the gym floor.
+
+                                    Meal 5 (Recovery Dinner): 200g grilled salmon, 300g baked potato wedges, and a mixed green salad with half an avocado. The Omega-3s in the fish fight joint inflammation from standing all day, while the carbs promote better sleep and overnight recovery.''',
                                       'isAI': true,
                                     });
                                   });

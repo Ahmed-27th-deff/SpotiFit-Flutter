@@ -30,11 +30,38 @@ class AuthCubit extends Cubit<AuthState> {
     }
   }
 
-  // Sign up
+  // Sign up (basic - email & password only)
+  Future<void> signUpBasic({
+    required String email,
+    required String password,
+  }) async {
+    try {
+      emit(AuthLoading());
+      
+      final user = await _authRepository.signUpBasic(
+        email: email,
+        password: password,
+      );
+      
+      emit(AuthAuthenticated(user));
+    } catch (e) {
+      emit(AuthError(e.toString().replaceAll('Exception: ', '')));
+      emit(AuthUnauthenticated());
+    }
+  }
+
+  // Sign up (full - deprecated, use signUpBasic + completeOnboarding)
   Future<void> signUp({
     required String email,
     required String password,
-    required String fullName,
+    required String firstName,
+    required String lastName,
+    required String gender,
+    required DateTime dateOfBirth,
+    required double height,
+    required double weight,
+    required String fitnessLevel,
+    required List<String> fitnessGoals,
   }) async {
     try {
       emit(AuthLoading());
@@ -42,7 +69,14 @@ class AuthCubit extends Cubit<AuthState> {
       final user = await _authRepository.signUp(
         email: email,
         password: password,
-        fullName: fullName,
+        firstName: firstName,
+        lastName: lastName,
+        gender: gender,
+        dateOfBirth: dateOfBirth,
+        height: height,
+        weight: weight,
+        fitnessLevel: fitnessLevel,
+        fitnessGoals: fitnessGoals,
       );
       
       emit(AuthAuthenticated(user));
@@ -85,12 +119,14 @@ class AuthCubit extends Cubit<AuthState> {
 
   // Complete onboarding
   Future<void> completeOnboarding({
+    required String firstName,
+    required String lastName,
+    required String gender,
+    required DateTime dateOfBirth,
     required double height,
     required double weight,
-    required String gender,
-    required String goal,
-    required String activityLevel,
-    required String equipment,
+    required String fitnessLevel,
+    required List<String> fitnessGoals,
   }) async {
     try {
       final currentState = state;
@@ -98,12 +134,14 @@ class AuthCubit extends Cubit<AuthState> {
         emit(AuthLoading());
         final updatedUser = await _authRepository.completeOnboarding(
           uid: currentState.user.uid,
+          firstName: firstName,
+          lastName: lastName,
+          gender: gender,
+          dateOfBirth: dateOfBirth,
           height: height,
           weight: weight,
-          gender: gender,
-          goal: goal,
-          activityLevel: activityLevel,
-          equipment: equipment,
+          fitnessLevel: fitnessLevel,
+          fitnessGoals: fitnessGoals,
         );
         emit(AuthAuthenticated(updatedUser));
       }

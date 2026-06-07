@@ -63,35 +63,19 @@ class MyApp extends StatelessWidget {
       redirect: (context, state) {
         final authState = context.read<AuthCubit>().state;
         final isAuthenticated = authState is AuthAuthenticated;
-        final hasCompletedOnboarding = isAuthenticated
-            ? authState.user.hasCompletedOnboarding
-            : false;
 
         final isGoingToAuth =
             state.matchedLocation == '/login' ||
             state.matchedLocation == '/signup' ||
             state.matchedLocation == '/splash';
 
-        final isGoingToOnboarding = state.matchedLocation == '/onboarding';
-
         // If not authenticated and not going to auth screens, redirect to login
-        if (!isAuthenticated && !isGoingToAuth && !isGoingToOnboarding) {
+        if (!isAuthenticated && !isGoingToAuth) {
           return '/login';
         }
 
-        // If authenticated but hasn't completed onboarding, redirect to onboarding
-        if (isAuthenticated &&
-            !hasCompletedOnboarding &&
-            !isGoingToOnboarding &&
-            !isGoingToAuth) {
-          return '/onboarding';
-        }
-
-        // If authenticated and completed onboarding, but going to auth screens (except splash), redirect to dashboard
-        if (isAuthenticated &&
-            hasCompletedOnboarding &&
-            isGoingToAuth &&
-            state.matchedLocation != '/splash') {
+        // If authenticated and going to auth screens (except splash), redirect to dashboard
+        if (isAuthenticated && isGoingToAuth && state.matchedLocation != '/splash') {
           return '/dashboard';
         }
 

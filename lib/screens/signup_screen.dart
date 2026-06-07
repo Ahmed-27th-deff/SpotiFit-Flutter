@@ -19,12 +19,10 @@ class SignUpScreen extends StatefulWidget {
 
 class _SignUpScreenState extends State<SignUpScreen> {
   final _formKey = GlobalKey<FormState>();
-  final fullNameController = TextEditingController();
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
   final confirmPasswordController = TextEditingController();
 
-  final FocusNode _fullNameFocus = FocusNode();
   final FocusNode _emailFocus = FocusNode();
   final FocusNode _passwordFocus = FocusNode();
   final FocusNode _confirmPasswordFocus = FocusNode();
@@ -34,11 +32,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
   @override
   void dispose() {
-    fullNameController.dispose();
     emailController.dispose();
     passwordController.dispose();
     confirmPasswordController.dispose();
-    _fullNameFocus.dispose();
     _emailFocus.dispose();
     _passwordFocus.dispose();
     _confirmPasswordFocus.dispose();
@@ -48,13 +44,13 @@ class _SignUpScreenState extends State<SignUpScreen> {
   void _handleSignUp() {
     FocusScope.of(context).unfocus();
     if (_formKey.currentState!.validate()) {
-      context.read<AuthCubit>().signUp(
+      context.read<AuthCubit>().signUpBasic(
         email: emailController.text.trim(),
         password: passwordController.text,
-        fullName: fullNameController.text.trim(),
       );
     }
   }
+
 
   @override
   Widget build(BuildContext context) {
@@ -113,30 +109,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         ),
                         const SizedBox(height: 32),
                         CustomTextField(
-                          label: languageProvider.t('fullName'),
-                          controller: fullNameController,
-                          prefixIcon: Icons.person_outline,
-                          hintText: 'John Doe',
-                          focusNode: _fullNameFocus,
-                          textInputAction: TextInputAction.next,
-                          onFieldSubmitted: (_) {
-                            FocusScope.of(context).requestFocus(_emailFocus);
-                          },
-                          validator: (value) {
-                            if (value == null || value.isEmpty) {
-                              return isRTL
-                                  ? 'هذا الحقل مطلوب'
-                                  : 'This field is required';
-                            }
-                            return null;
-                          },
-                        ),
-                        const SizedBox(height: 20),
-                        CustomTextField(
                           label: languageProvider.t('email'),
                           controller: emailController,
                           prefixIcon: Icons.mail_outline,
-                          hintText: 'example@email.com',
+                          hintText: 'example@gmail.com',
                           keyboardType: TextInputType.emailAddress,
                           focusNode: _emailFocus,
                           textInputAction: TextInputAction.next,

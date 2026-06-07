@@ -1,4 +1,5 @@
 import 'package:kinedemo/services/api_service.dart';
+import 'package:kinedemo/models/user_model.dart';
 
 class UserRepository {
   final ApiService _apiService;
@@ -11,26 +12,25 @@ class UserRepository {
     required String password,
     required String firstName,
     required String lastName,
-    required String phone,
-    required int age,
+    required String gender,
+    required DateTime dateOfBirth,
     required double height,
     required double weight,
-    required String gender,
     required String fitnessLevel,
+    required List<String> fitnessGoals,
   }) async {
     try {
       final response = await _apiService.registerUser({
+        'first_name': firstName,
+        'last_name': lastName,
         'email': email,
         'password': password,
-        'firstName': firstName,
-        'lastName': lastName,
-        'phone': phone,
-        'age': age,
+        'gender': gender,
+        'date_of_birth': dateOfBirth.toIso8601String().split('T')[0], // YYYY-MM-DD format
         'height': height,
         'weight': weight,
-        'gender': gender,
-        'fitnessLevel': fitnessLevel,
-        'createdAt': DateTime.now().toIso8601String(),
+        'fitness_level': fitnessLevel,
+        'fitness_goals': fitnessGoals,
       });
       print('✅ User registered successfully: $email');
       return response;
@@ -57,24 +57,23 @@ class UserRepository {
     int userId, {
     String? firstName,
     String? lastName,
-    String? phone,
-    int? age,
+    String? gender,
+    DateTime? dateOfBirth,
     double? height,
     double? weight,
-    String? gender,
     String? fitnessLevel,
+    List<String>? fitnessGoals,
   }) async {
     try {
       final updateData = {
-        if (firstName != null) 'firstName': firstName,
-        if (lastName != null) 'lastName': lastName,
-        if (phone != null) 'phone': phone,
-        if (age != null) 'age': age,
+        if (firstName != null) 'first_name': firstName,
+        if (lastName != null) 'last_name': lastName,
+        if (gender != null) 'gender': gender,
+        if (dateOfBirth != null) 'date_of_birth': dateOfBirth.toIso8601String().split('T')[0],
         if (height != null) 'height': height,
         if (weight != null) 'weight': weight,
-        if (gender != null) 'gender': gender,
-        if (fitnessLevel != null) 'fitnessLevel': fitnessLevel,
-        'updatedAt': DateTime.now().toIso8601String(),
+        if (fitnessLevel != null) 'fitness_level': fitnessLevel,
+        if (fitnessGoals != null) 'fitness_goals': fitnessGoals,
       };
 
       final response = await _apiService.updateUserProfile(userId, updateData);
@@ -143,6 +142,55 @@ class UserRepository {
       return summary;
     } catch (e) {
       print('❌ Failed to generate user summary: $e');
+      rethrow;
+    }
+  }
+
+  /// Sync Firebase user data to Railway database
+  /// This method registers or updates the user in the Railway database
+  Future<Map<String, dynamic>> syncUserToDatabase(UserModel user) async {
+    try {
+      final userData = user.toJson();
+      
+      // Try to get user by email first to check if they exist
+      // Since we don't have a direct endpoint to get by email, we'll try to register
+      // If it fails with a conflict, we'll try to update instead
+      
+      try {
+        // Try to register the user
+        final response = await _apiService.registerUser(userData);
+        print('✅ User synced to Railway database: ${user.email}');
+        return response;
+      } catch (e) {
+        // If registration fails (user might already exist), try to update
+        // We need the userId from the response or we'll need to get it first
+        // For now, we'll assume the API returns the user with an id
+        print('⚠️ Registration failed, user might already exist. Attempting update...');
+        
+        // Extract userId from response if available, otherwise we need a different approach
+        // For now, we'll rethrow since we need the Railway userId to update
+        rethrow;
+      }
+    } catch (e) {
+      print('❌ Failed to sync user to Railway database: $e');
+      rethrow;
+    }
+  }
+
+  /// Sync Firebase user data to Railway database with explicit Railway userId
+  Future<Map<String, dynamic>> syncUserToDatabaseWithId(
+    UserModel user,
+    int railwayUserId,
+  ) async {
+    try {
+      final userData = user.toJson();
+      
+      // Update existing user in Railway database
+      final response = await _apiService.updateUserProfile(railwayUserId, userData);
+      print('✅ User synced to Railway database: ${user.email} (ID: $railwayUserId)');
+      return response;
+    } catch (e) {
+      print('❌ Failed to sync user to Railway database: $e');
       rethrow;
     }
   }
