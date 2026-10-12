@@ -19,7 +19,7 @@ SpotiFit is a cross-platform fitness app that helps users:
 
 ## Demo Video
 
-[Watch the Timor AI demo](https://drive.google.com/file/d/1ZpVNfd9WMz59akK9shPbqw862e1ZY4GP/view)
+[Watch the SpotiFit demo](https://drive.google.com/file/d/1ZpVNfd9WMz59akK9shPbqw862e1ZY4GP/view)
 
 ## Features
 
