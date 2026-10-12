@@ -8,7 +8,7 @@ A comprehensive Flutter-based fitness coaching application with AI-powered guida
 SpotiFit is designed to make fitness more personal, accessible, and motivating. Instead of a generic workout app, it helps users build healthier routines through smart onboarding, goal-based training, real-time workout tracking, nutrition awareness, and personalized guidance.
 
 ## App Summary
-KineDemo is a cross-platform fitness app that helps users:
+SpotiFit is a cross-platform fitness app that helps users:
 - create a personalized fitness profile
 - choose goals and activity preferences
 - follow structured exercise programs
@@ -16,6 +16,10 @@ KineDemo is a cross-platform fitness app that helps users:
 - monitor nutrition and macro balance
 - review progress and achievements over time
 - receive guidance from an AI-style fitness coach
+
+## Demo Video
+
+[Watch the Timor AI demo](https://drive.google.com/file/d/1ZpVNfd9WMz59akK9shPbqw862e1ZY4GP/view)
 
 ## Features
 
