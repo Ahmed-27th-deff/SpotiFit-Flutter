@@ -212,6 +212,4 @@ This project is open source and available under the MIT License.
 **Ahmed** - [GitHub Profile](https://github.com/Ahmed-27th-deff)
 
 ## Support
-For support, email: ahmed@example.com or open an issue on GitHub.
-
-```
+For support, email: salemdeff@gmail.com or open an issue on GitHub.
